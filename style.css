@@ -1,0 +1,82 @@
+
+body{
+    background-image:url(sunset.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0px;
+
+    height: 1750px;
+
+    overflow-x: hidden;
+}
+
+#Quote
+{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 5px 5px 5px black;
+    color: azure;
+
+    margin-top: 250px;
+    padding: 10px;
+
+    position: sticky;
+    position: -webkit-sticky;
+
+    top: 0px;
+
+    background-color: rgba(255, 101, 101, .5);
+}
+
+#Quote>blockquote
+{
+    font-size: 50px;
+}
+
+#Quote>blockquote>p{
+    font-size: 35px;
+}
+
+#Birds{
+    position: relative;
+    
+    animation-name: birds;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    z-index: -1;
+}
+
+@keyframes birds{
+    from{top: 350px;}
+    to{top: 300px;}
+}
+
+footer{
+width: 100%;
+height: 150px;
+
+margin-top: 1110px;
+padding: 10px;
+
+background-color: rgba(197, 43, 43, 0.5);
+
+text-align: center;
+font-size:25px;
+
+line-height: 75px;
+}
+
+#links a i{
+    color: white;
+    size: 100px;
+    padding: 5px;
+}
+
+
+#rights{
+    color: rgba(255, 255, 255, .5);
+    font-size: 13px;
+}
